@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using LaTeX in Matplotlib 2
+title: Using LaTeX in Matplotlib 3
 ---
 
 LaTex is a great tool and even better if you can plot your graphs in Python, using Matplotlib, and getting the LaTeX style so it matches the LaTeX document you're working on!
