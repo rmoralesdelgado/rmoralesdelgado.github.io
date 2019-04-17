@@ -9,6 +9,4 @@ So this is my very first post in this blog. My main objective is to share my pro
 
 My blog will be divided in two sections, namely one with somewhat big projects, and another one with small things that I learn here and there, like Python puzzles or tricks to get the most advantage of some packages of modules that I am currently using right now and probably you as well.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
 I hope you will find this useful!
