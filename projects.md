@@ -4,7 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-In this page I present some "big" projects I have made.
+<h1 style="padding:3px; font-size:3vw">Projects</h1>
+
+Here are some of the more "complex" projects I have done. 
 
 ## Projects
 
