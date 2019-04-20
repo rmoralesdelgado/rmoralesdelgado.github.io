@@ -13,10 +13,9 @@ Here are some small problems I have solved. These problems will range from simpl
 <div style="position:absolute; float:left; left:45px">
   
   <h2>Finding the Index of a Fibonacci Number</h2>
-  
+  <br>
+  In this post, the yadda yadda yadda...
+  **Tags**: `python`.  
   </div>
-<div style="float:right; width:35px"><img src= "http://thescienceexplorer.com/sites/thescienceexplorer.com/files/styles/content_image__large/public/blog/1024px-Espiral_de_semillas_de_Girasol.jpg?itok=ItNl2qH7&timestamp=1463602103" /></div>
+<div style="float:right; width:200px"><img src= "http://thescienceexplorer.com/sites/thescienceexplorer.com/files/styles/content_image__large/public/blog/1024px-Espiral_de_semillas_de_Girasol.jpg?itok=ItNl2qH7&timestamp=1463602103" /></div>
 </div>
-## Snippets
-
-Blah blah blah 2...
