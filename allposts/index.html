@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1 style="background-color:#ebebeb; padding:5px; font-size:3.5vw">All Posts</h1>
+<h1 style="padding:3px; font-size:3vw">All Posts</h1>
 <br>
 In this section, all posts, from both <b>Projects</b> and <b>Snippets</b>, will be shown chronologically.
 
@@ -10,7 +10,7 @@ In this section, all posts, from both <b>Projects</b> and <b>Snippets</b>, will 
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
         {{ post.excerpt }}
