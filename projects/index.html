@@ -16,40 +16,49 @@ layout: default
   <hr>
 </section>
 
+
 <head>
 <style>
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
+  grid-gap: 25px 15px;
+  grid-template-columns: 75% auto;
   padding: 10px;
 }
 
-.grid-item {
+.grid-item-text {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  padding: 5px;
+  text-align: left;
+}
+
+.grid-item-img {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: center
+    img {
+      border-radius: 5px;
+  };
 }
 </style>
 </head>
 <body>
 
-<h1>The display Property:</h1>
+<h1>The grid-gap Property:</h1>
 
 <div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>  
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
+  <div class="grid-item-text">
+    <h2>Finding the Index of a Fibonacci Number</h2>
+    <p>In this post, the yadda yadda yadda...</p>
+  </div>
+  <div class="grid-item-img">
+    <img style="display:block;" src= "http://thescienceexplorer.com/sites/thescienceexplorer.com/files/styles/content_image__large/public/blog/1024px-Espiral_de_semillas_de_Girasol.jpg?itok=ItNl2qH7&timestamp=1463602103" />
+  </div>
+  <div class="grid-item-text">3</div>  
+  <div class="grid-item-img">4</div>
 </div>
 
-<p>Set the <em>display</em> property to <em>grid</em> to make a block-level grid container.</p>
+<p>Use the <em>grid-gap</em> property to adjust the space between the columns <em>and</em> the rows.</p>
 
 
 </body>
