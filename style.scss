@@ -73,11 +73,11 @@ p {
 }
 
 a {
-  color: #010649;
+  color: RGBA(1,6,73,0.9);
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #010649;
+    color: RGBA(1,6,73,0.6);
   }
 }
 
