@@ -203,3 +203,5 @@ b = fib_index_getter(20)
 **End.**
 
 ---
+
+<script src="https://gist.github.com/rmoralesdelgado/cec9fbe2e1955829ab6714cd5a2fc594.js"></script>
