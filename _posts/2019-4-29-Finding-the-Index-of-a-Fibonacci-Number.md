@@ -1,5 +1,8 @@
-
-# Finding the Index of a Fibonacci Number
+---
+layout: post
+title: Finding the Index of a Fibonacci Number
+tags: python
+---
 
 Leonardo Fibonacci was an Italian mathematician born in the XII century, whose main heritage was introducing the Hindu-Arabic numeral system — the decimal system — in the western world, and also for creating the famous Fibonacci numbers [[1]](https://en.wikipedia.org/wiki/Fibonacci).
 
