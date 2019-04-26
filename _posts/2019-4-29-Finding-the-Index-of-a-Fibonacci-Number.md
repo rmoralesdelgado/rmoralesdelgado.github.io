@@ -70,6 +70,8 @@ def fib_seq_A(n):
         return final_seq
 ```
 
+<script src="https://gist.github.com/rmoralesdelgado/082bf88a70f7b9e462f44522935cd5c1.js"></script>
+
 Once the function has been defined, we will test it for a special condition, e.g. $F(1)$, and also for $n=10$, such that all the sequence up to the Fibonacci number at index 10 will be shown.
 
 
