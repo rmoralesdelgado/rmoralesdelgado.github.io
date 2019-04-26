@@ -35,42 +35,8 @@ In this Snippet, we will show two practical ways to create a Fibonacci sequence.
 
 For this method, we will grab the definition shown above and we will create a function that, first, creates the exception cases for when $n = 0$ and $n = 1$, and second, creates the sequence for when $n≥2$.
 
-
-```python
-# Defining a function to create a Fibonacci sequence:
-
-def fib_seq_A(n):
-    
-    # Creating an assertion to guarantee that n will be int and positive:
-    assert ((isinstance(n, int)) & (n >= 0)), '"n" must be int and positive.'
-    
-    # Case for when n = 0:
-    if n == 0:
-        final_seq = [0]
-        return final_seq
-    
-    # Case for when n = 1:
-    elif n == 1:
-        final_seq = [0, 1]
-        return final_seq
-    
-    # Case for when n ≥ 2:
-    else:
-        final_seq = [0, 1] # 'final_seq' already containing the first two elements
-        
-        # Setting the initial index, or n, from which to start:
-        fib_index = 2
-        
-        # For-looping from the initial index until n:
-        for i in range(fib_index, n + 1):
-            fib_number = final_seq[i - 1] + final_seq[i - 2]
-            final_seq.append(fib_number)
-            pass
-
-        return final_seq
-```
-
 <script src="https://gist.github.com/rmoralesdelgado/082bf88a70f7b9e462f44522935cd5c1.js"></script>
+<script src="https://gist.github.com/rmoralesdelgado/ee4153fcf6ed99e7db1715313020b7b8.js"></script>
 
 Once the function has been defined, we will test it for a special condition, e.g. $F(1)$, and also for $n=10$, such that all the sequence up to the Fibonacci number at index 10 will be shown.
 
