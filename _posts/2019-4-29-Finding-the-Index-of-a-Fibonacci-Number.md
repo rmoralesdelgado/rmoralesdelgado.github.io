@@ -12,20 +12,15 @@ The Fibonacci numbers form a sequence that follows a remarkable pattern: as the 
 
 
 The Fibonacci sequence, $F$, can be described as follows:
-
-$$
-F(0) = 0
-$$
+<img src="https://latex.codecogs.com/svg.latex?F(0)=0" title="F(0)=0" />
 <br>
-$$
-F(1) = 1
-$$
+<img src="https://latex.codecogs.com/svg.latex?F(1)=1" title="F(1)=1" />
 <br>
 $$
 F(n) = F(n-1) + F(n-2); n≥2,
 $$
 
-where $n$ corresponds to the $n^{th}$ term of the sequence.
+where <img src="https://latex.codecogs.com/svg.latex?n" title="n" /> corresponds to the $n^{th}$ term of the sequence.
 
 In this Snippet, we will show two practical ways to create a Fibonacci sequence. Then, we will do something even more interesting: we will create a function that, when provided a number, will tell if the number is a Fibonacci number or not, and if not, will tell between which indices of the sequence the number is located at.
 
